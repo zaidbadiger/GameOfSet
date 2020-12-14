@@ -1,0 +1,142 @@
+body {
+  background-color: #faf0dc;
+  color: black;
+  font-family: "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  text-align: center;
+  min-width: 860px; }
+
+.game-box {
+  background-color: #373833;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  padding: 20px;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#game-top {
+  height: 8em;
+  margin: auto;
+  position: relative;
+  margin-bottom: 2em; }
+
+#console {
+  position: absolute;
+  display: table;
+  background-color: #faf0dc;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  width: 75%;
+  height: 100%; }
+  #console h2 {
+    display: table-cell;
+    vertical-align: middle; }
+
+#score-box {
+  width: 20%;
+  float: right;
+  height: 100%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-color: #faf0dc;
+  color: black; }
+
+#game-side {
+  height: auto;
+  margin: auto;
+  position: relative; }
+
+#card-box {
+  background-color: #fa2742;
+  position: absolute;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  width: 75%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-evenly;
+  align-content: space-around; }
+
+.card, .player-count {
+  background-color: #faf0dc;
+  border-style: solid;
+  border-color: #fa2742;
+  border-radius: 20px;
+  height: 5em;
+  width: 100%;
+  margin: auto;
+  display: table; }
+
+.player-count span {
+  font-weight: bold;
+  font-size: x-large;
+  display: table-cell;
+  vertical-align: middle; }
+
+.card:hover, .player-count:hover {
+  border-color: #373833;
+  box-shadow: 0.3em 0.3em;
+  transition-duration: .2s; }
+
+#game-sidebar {
+  width: 20%;
+  float: right;
+  color: #faf0dc; }
+
+.game-info {
+  text-align: left;
+  padding-left: 1em; }
+
+.clear {
+  clear: both; }
+
+button {
+  transition-duration: .2s;
+  background-color: #faf0dc;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  padding: 20px;
+  color: black;
+  width: 100%;
+  font-size: 1em; }
+
+button:hover {
+  background-color: #fa2742;
+  color: white;
+  cursor: pointer; }
+
+#score-box h2 {
+  margin: 0.2em 0em; }
+
+#score-text {
+  height: 5em;
+  display: table;
+  margin: auto; 
+  width: 100%;}
+  #score-text button {
+    border: none;
+    padding: 0;
+    width: 90%;
+    height: 20%;
+    display: table-cell;
+    margin: auto;
+    vertical-align: middle;
+    list-style-type: none; }
+  #score-text .chosen {
+    border-style: solid;
+    border-color: black; }
+
+.hidden {
+  display: none; }
+
+.selected {
+  border-color: black;
+  box-shadow: .3em .3em;
+}
+

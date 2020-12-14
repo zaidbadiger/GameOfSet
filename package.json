@@ -1,0 +1,26 @@
+{
+  "name": "proj5-fab-five",
+  "version": "1.0.0",
+  "description": "Game of Set",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-google": "^0.14.0"
+  },
+  "devDependencies": {
+    "jasmine-es6": "^0.4.3"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cse3901-2020au-1240/proj5-fab-five.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cse3901-2020au-1240/proj5-fab-five/issues"
+  },
+  "homepage": "https://github.com/cse3901-2020au-1240/proj5-fab-five#readme"
+}
